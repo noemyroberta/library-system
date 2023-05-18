@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a181ba26-2234-440f-b930-ffa4f9ea3b55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Bairro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Emprestimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Exemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Genero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/TelefonePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="a181ba26-2234-440f-b930-ffa4f9ea3b55" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
