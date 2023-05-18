@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a181ba26-2234-440f-b930-ffa4f9ea3b55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Bairro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Exemplar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Genero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/TelefonePessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +50,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/noemyroberta/Documentos/UFAL/P4/BD/library-system",
+    "last_opened_file_path": "/home/noemyroberta/Documentos/UFAL/P4/BD/library-system/lib/mysql_connector/mysql-connector-java-8.0.29.jar",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39425287",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/mysql_connector" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
