@@ -36,7 +36,7 @@ LibrarySystem é um projeto com conexão de banco de dados utilizando hibernate 
 #### Feito! O banco de dados está criado e pronto para uso.
 Para visualização do sistema funcionando, execute a classe `Main.java`, localizada dentro da pasta `com.ufal.librarysystem`.
 
-### Arquitetura do Banco de Dados
+## Arquitetura do Banco de Dados
 #### Modelo Conceitual
 Software utilizado para modelagem: `brModelo`
 <img src="src/main/java/com/ufal/librarysystem/database/main_model.png" alt=""/>
@@ -49,7 +49,7 @@ Software utilizado para modelagem: `brModelo`
 Software utilizado para modelagem: `MySQL Workbench`
 <img src="src/main/java/com/ufal/librarysystem/database/physical_model.png" alt=""/>
 
-### Execução de consultas
+## Execução de consultas
 No MySQL Workbench, execute os arquivos:
 1. Views: `sript-views-creation.sql`
 2. Stored Procedures: `sript-stored-procedures-creation.sql`
