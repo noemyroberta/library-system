@@ -9,7 +9,7 @@ public abstract class AbstractDAO<T> {
 
     public AbstractDAO(Class<T> entityClass) {
         this.entityClass = entityClass;
-        this.sessionFactory = (SessionFactory) HibernateUtil.getSessionFactory();
+        this.sessionFactory = HibernateUtil.getSessionFactory();
     }
 
     public T getById(int id) {
@@ -23,6 +23,7 @@ public abstract class AbstractDAO<T> {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.save(entity);
+        System.out.println("Cadastrando novo "+ entityClass.getTypeName() + ": " +entity.toString());
         transaction.commit();
         session.close();
     }
@@ -30,6 +31,7 @@ public abstract class AbstractDAO<T> {
     public void update(T entity) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
+        System.out.println("Atualizando "+ entityClass.getTypeName() + " com informações de: " +entity.toString());
         session.update(entity);
         transaction.commit();
         session.close();
@@ -38,6 +40,7 @@ public abstract class AbstractDAO<T> {
     public void delete(T entity) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
+        System.out.println("Deletando "+ entityClass.getTypeName() + ": " +entity.toString());
         session.delete(entity);
         transaction.commit();
         session.close();

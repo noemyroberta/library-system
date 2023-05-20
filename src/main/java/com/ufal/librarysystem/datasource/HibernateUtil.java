@@ -11,8 +11,18 @@ public class HibernateUtil {
     private static SessionFactory sessionFactory;
 
     public HibernateUtil() {
-        Configuration config = new Configuration();
+        createSession();
+    }
 
+    public static SessionFactory getSessionFactory() {
+        if (sessionFactory == null) {
+            createSession();
+        }
+        return sessionFactory;
+    }
+
+    public static void createSession() {
+        Configuration config = new Configuration();
         config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/db_biblioteca");
         config.setProperty("hibernate.connection.username", "localhost");
         config.setProperty("hibernate.connection.password", "");
@@ -37,9 +47,5 @@ public class HibernateUtil {
         ServiceRegistry serviceRegistry =
                 new StandardServiceRegistryBuilder().applySettings(config.getProperties()).build();
         sessionFactory = config.buildSessionFactory(serviceRegistry);
-    }
-
-    public static Session getSessionFactory() {
-        return sessionFactory.openSession();
     }
 }

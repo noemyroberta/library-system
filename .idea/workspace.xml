@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a181ba26-2234-440f-b930-ffa4f9ea3b55" name="Changes" comment="" />
+    <list default="true" id="a181ba26-2234-440f-b930-ffa4f9ea3b55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/BairroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/BairroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/EmprestimoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/EmprestimoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/ExemplarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/ExemplarDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/FuncionarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/FuncionarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/GeneroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/GeneroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/LivroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/PessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/PessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/TelefonePessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/datasource/TelefonePessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Bairro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Bairro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Emprestimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Exemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Exemplar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/TelefonePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufal/librarysystem/model/TelefonePessoa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +60,9 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/noemyroberta/Documentos/UFAL/P4/BD/library-system/lib/mysql_connector/mysql-connector-java-8.0.29.jar",
+    "last_opened_file_path": "/home/noemyroberta/Documentos/UFAL/P4/BD/library-system",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39425287",
@@ -49,6 +73,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/mysql_connector" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufal.librarysystem.Main" />
+      <module name="library-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufal.librarysystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,5 +115,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
